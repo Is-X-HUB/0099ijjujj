@@ -1449,19 +1449,19 @@ until game.Players.LocalPlayer
 _G.Z1 = UDim2.new(0.697560000, 0, 0, 0) --0.697560000, 0, 0, 0/0.737560000, 0, 0, 0
 local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 local a = library:Window("   Queue Hub","     ["..GetName.Name.."]","ทำเองใช้เองไม่แจก",Enum.KeyCode.RightControl)
-local HomePage = a:Tab("Home",[[19001298972]])
-local Main = a:Tab("Main",[[15712703260]])
+local HomePage = a:Tab("Credit",[[19001314902]])
+local Main = a:Tab("General",[[6026568198]])
 local Set = a:Tab("Setting",[[15712711639]])
-local Farm = a:Tab("Other Farm",[[15712717270]])
-local Stats = a:Tab("Stats",[[15712723981]])
+local Farm = Main
+local Stats = a:Tab("Stats",[[7040410130]])
 local Race = a:Tab("Race V4",[[15712776421]])
-local Event = a:Tab("Games Event",[[15806749681]])
-local Tele = a:Tab("Teleport",[[15712738876]])
-local Player = a:Tab("Player",[[15712750195]])
-local DemonFruit = a:Tab("Devil Fruit",[[15712758182]])
+local Event = Race
+local Tele = a:Tab("Teleport",[[6035190846]])
+local Player = a:Tab("Player",[[7251993295]])
 local Raid = a:Tab("Raid",[[15712763124]])
-local Shop = a:Tab("Shop",[[15712767144]])
-local Misc = a:Tab("Misc",[[15712771666]])
+local DemonFruit = Raid
+local Shop = Player
+local Misc = a:Tab("Misc",[[6034509993]])
 
 
 
